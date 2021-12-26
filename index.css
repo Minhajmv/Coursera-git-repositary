@@ -1,0 +1,124 @@
+@import url(https://fonts.google.com/css?family=Outfit:300,400,600&display=swap);
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-217: hsl(217, 54%, 11%);
+    --Very-dark-blue-216: hsl(216, 50%, 16%);
+    --Very-dark-blue-215: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--White);
+    background-color: var(--Very-dark-blue-217);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.main-container{
+    border-radius: 15px;
+    border: .2px solid var(--Very-dark-blue-216);
+    box-shadow: 0px 27px 3px 20px #0a172b;
+    width: 60%;
+   height: 65vh%;
+margin-top: 4%;
+margin-left: auto;
+margin-right: auto;
+    background-color: var(--white);
+}
+
+.image{
+    position: relative;
+    width: 88%;
+    height: 50;
+    margin:6%;
+    border-radius: 8px;
+}
+.imgtext{
+    color: aqua;
+    position: relative;
+    width: 88%;
+    height: 50;
+    border-radius: 8px;
+    margin: 6%;
+}
+.image:hover{
+    opacity: .3;
+    background-color: var(--White);
+}
+
+.first-heading{
+    position: relative;
+    margin: 5%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.sentence{
+    position: relative;
+color:var(--Soft-blue);
+margin-left: 5%;
+margin-right: 5%;
+font-weight: 300;
+}
+
+.counter {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter p {
+    margin-top: 0px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: var(--Cyan);
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+hr{
+    width: 80%;
+    border: 1px solid var(--Very-dark-blue-215);
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+}
+a {
+    text-decoration: none;
+    color:var(--Soft-blue);
+}
+
+
+.footer {
+    width: 300px;
+    justify-content: flex-start;
+}
+
+.footer p {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: .9rem;
+    //line-height: 1.5rem;
+    color: var(--Soft-blue);
+}
+
+.footer p span a{
+    color: var(--White);
+}
+ 
+a:hover, .hov:hover ,.first-heading:hover{
+    color: var(--Cyan);
+    transition: all 0.5s linear;
+}
